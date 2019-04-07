@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
+<nltk_data>
+  <packages>
+    <package author="Christopher C. Little" checksum="bbef86232b815db0266d879e3a65e87e" id="de_qgram" license="CC-BY" name="German q-gram UnigramCorpus data based on Google Books NGram" size="1781509" subdir="corpora" unzip="1" unzipped_size="3602894" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/corpora/de_qgram.zip" version="1.0" />
+    <package author="Christopher C. Little" checksum="e81a4a058b4016f728d3dc49438baecd" id="en_qgram" license="CC-BY" name="English q-gram UnigramCorpus data based on Google Books NGram" size="3127242" subdir="corpora" unzip="1" unzipped_size="6382969" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/corpora/en_qgram.zip" version="1.0" />
+    <package author="Christopher C. Little" checksum="550f65355d00b15cfcad1d08f41c0877" id="wikitext_qgram" license="CC-BY" name="Q-gram UnigramCorpus data based on WikiText-103" size="1761891" subdir="corpora" unzip="1" unzipped_size="4521085" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/corpora/wikitext_qgram.zip" version="1.0" />
+  </packages>
+  <collections>
+    <collection id="all" name="All packages">
+      <item ref="de_qgram" />
+      <item ref="en_qgram" />
+      <item ref="wikitext_qgram" />
+    </collection>
+  </collections>
+</nltk_data>
