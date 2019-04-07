@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:template match="/nltk_data">
+    <xsl:template match="/abydos-data">
         <HTML>
             <HEAD>
-                <TITLE>NLTK Data</TITLE>
+                <TITLE>Abydos Data</TITLE>
             </HEAD>
             <BODY bgcolor="white" text="navy">
-                <H1>NLTK Corpora</H1>
-                <P>NLTK has built-in support for dozens of corpora and trained models, as listed below.
-                To use these within NLTK we recommend that you use the NLTK corpus downloader,
-                <TT>&gt;&gt;&gt; nltk.download()</TT></P>
-		<P>Please consult the README file included with each
-		corpus for further information.</P>
+                <H1>Abydos Corpora</H1>
+                <P>Abydos has built-in support for some corpora, as listed below.
+                To use these within Abydos we recommend that you use the Abydos downloader,
+                <TT>&gt;&gt;&gt; abydos.download()</TT></P>
                 <OL>
                 <xsl:for-each select="//packages/package">
                     <LI><I><xsl:value-of select="@name"/></I>
@@ -37,8 +35,6 @@
                     </LI>
                 </xsl:for-each>
                 </OL>
-                <HR/>
-                <A href="http://www.nltk.org">Natural Language Toolkit</A>
             </BODY>
         </HTML>
     </xsl:template>
