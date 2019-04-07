@@ -1,0 +1,7 @@
+<package id="wikitext_qgram"
+         name="Q-gram UnigramCorpus data based on WikiText-103"
+         version="1.0"
+         author="Christopher C. Little"
+         license="CC-BY"
+         unzip="1"
+         />

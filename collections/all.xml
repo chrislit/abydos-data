@@ -1,0 +1,5 @@
+<collection id="all" name="All packages">
+  <item ref="de_qgram"/>
+  <item ref="en_qgram"/>
+  <item ref="wikitext_qgram"/>
+</collection>
