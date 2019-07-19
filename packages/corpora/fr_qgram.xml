@@ -1,0 +1,7 @@
+<package id="fr_qgram"
+         name="French q-gram UnigramCorpus data based on Google Books NGrams"
+         version="1.0"
+         author="Christopher C. Little"
+         license="CC-BY"
+         unzip="1"
+         />
