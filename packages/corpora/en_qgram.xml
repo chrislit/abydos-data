@@ -1,5 +1,5 @@
 <package id="en_qgram"
-         name="English q-gram UnigramCorpus data based on Google Books NGram"
+         name="English q-gram UnigramCorpus data based on Google Books NGrams"
          version="1.0"
          author="Christopher C. Little"
          license="CC-BY"
