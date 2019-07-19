@@ -17,8 +17,29 @@
   <collections>
     <collection id="all" name="All packages">
       <item ref="de_qgram" />
+      <item ref="en_GB_qgram" />
       <item ref="en_qgram" />
+      <item ref="en_US_qgram" />
+      <item ref="es_qgram" />
+      <item ref="fr_qgram" />
+      <item ref="he_qgram" />
+      <item ref="it_qgram" />
+      <item ref="ru_qgram" />
       <item ref="wikitext_qgram" />
+      <item ref="zh_CN_qgram" />
+    </collection>
+    <collection id="qgram_corpora" name="Q-Gram corpora">
+      <item ref="de_qgram" />
+      <item ref="en_GB_qgram" />
+      <item ref="en_qgram" />
+      <item ref="en_US_qgram" />
+      <item ref="es_qgram" />
+      <item ref="fr_qgram" />
+      <item ref="he_qgram" />
+      <item ref="it_qgram" />
+      <item ref="ru_qgram" />
+      <item ref="wikitext_qgram" />
+      <item ref="zh_CN_qgram" />
     </collection>
   </collections>
 </nltk_data>
