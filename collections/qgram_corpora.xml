@@ -1,4 +1,4 @@
-<collection id="all" name="All packages">
+<collection id="qgram_corpora" name="Q-Gram corpora">
   <item ref="de_qgram"/>
   <item ref="en_GB_qgram"/>
   <item ref="en_qgram"/>
