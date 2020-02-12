@@ -1,0 +1,7 @@
+<package id="windows_keymaps"
+         name="Windows Keymaps"
+         version="1.0"
+         author="Christopher C. Little"
+         license="CC-BY"
+         unzip="1"
+         />

@@ -10,4 +10,6 @@
   <item ref="ru_qgram"/>
   <item ref="wikitext_qgram"/>
   <item ref="zh_CN_qgram"/>
+  <item ref="key_positions"/>
+  <item ref="windows_keymaps"/>
 </collection>

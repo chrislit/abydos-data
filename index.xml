@@ -2,6 +2,8 @@
 <?xml-stylesheet href="index.xsl" type="text/xsl"?>
 <nltk_data>
   <packages>
+    <package author="Christopher C. Little" checksum="35e363e0b539350f2292bffffba110d9" id="key_positions" license="CC-BY" name="Key Positions" size="548" subdir="keymaps" unzip="1" unzipped_size="886" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/key_positions.zip" version="1.0" />
+    <package author="Christopher C. Little" checksum="d84f96eaf7ecbc4c50406f0ea8e781c2" id="windows_keymaps" license="CC-BY" name="Windows Keymaps" size="131796" subdir="keymaps" unzip="1" unzipped_size="342433" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/windows_keymaps.zip" version="1.0" />
     <package author="Christopher C. Little" checksum="18927db56cf8d036a15366f01b966572" id="he_qgram" license="CC-BY" name="Hebrew q-gram UnigramCorpus data based on Google Books NGrams" size="406547" subdir="corpora" unzip="1" unzipped_size="847090" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/corpora/he_qgram.zip" version="1.0" />
     <package author="Christopher C. Little" checksum="2451e4017247b2513eb33b31efe37746" id="en_GB_qgram" license="CC-BY" name="British English q-gram UnigramCorpus data based on Google Books NGrams" size="2326615" subdir="corpora" unzip="1" unzipped_size="4698157" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/corpora/en_GB_qgram.zip" version="1.0" />
     <package author="Christopher C. Little" checksum="9b9228d1ba0423eb53b1d34505ba22c0" id="it_qgram" license="CC-BY" name="Italian q-gram UnigramCorpus data based on Google Books NGrams" size="1428722" subdir="corpora" unzip="1" unzipped_size="2846851" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/corpora/it_qgram.zip" version="1.0" />
@@ -27,6 +29,12 @@
       <item ref="ru_qgram" />
       <item ref="wikitext_qgram" />
       <item ref="zh_CN_qgram" />
+      <item ref="key_positions" />
+      <item ref="windows_keymaps" />
+    </collection>
+    <collection id="keymaps" name="Keymaps">
+      <item ref="key_positions" />
+      <item ref="windows_keymaps" />
     </collection>
     <collection id="qgram_corpora" name="Q-Gram corpora">
       <item ref="de_qgram" />

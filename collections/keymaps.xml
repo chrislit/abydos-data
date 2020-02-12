@@ -1,0 +1,4 @@
+<collection id="keymaps" name="Keymaps">
+  <item ref="key_positions"/>
+  <item ref="windows_keymaps"/>
+</collection>
