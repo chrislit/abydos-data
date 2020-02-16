@@ -2,8 +2,11 @@
 <?xml-stylesheet href="index.xsl" type="text/xsl"?>
 <nltk_data>
   <packages>
-    <package author="Christopher C. Little" checksum="35e363e0b539350f2292bffffba110d9" id="key_positions" license="CC-BY" name="Key Positions" size="548" subdir="keymaps" unzip="1" unzipped_size="886" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/key_positions.zip" version="1.0" />
-    <package author="Christopher C. Little" checksum="d84f96eaf7ecbc4c50406f0ea8e781c2" id="windows_keymaps" license="CC-BY" name="Windows Keymaps" size="131796" subdir="keymaps" unzip="1" unzipped_size="342433" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/windows_keymaps.zip" version="1.0" />
+    <package author="Christopher C. Little" checksum="d9896aa0e4890eca4de90a5acdf0a42b" id="osx_keymaps" license="CC-BY" name="macOS Keymaps" size="182878" subdir="keymaps" unzip="1" unzipped_size="879610" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/osx_keymaps.zip" version="1.0" />
+    <package author="Christopher C. Little" checksum="23a7ea13eea1ef186f128776bf7e7d6c" id="android_keymaps" license="CC-BY" name="Android Keymaps" size="127362" subdir="keymaps" unzip="1" unzipped_size="347280" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/android_keymaps.zip" version="1.0" />
+    <package author="Christopher C. Little" checksum="5540852f2deafb1e36d2e104289b57b9" id="chromeos_keymaps" license="CC-BY" name="Chrome OS Keymaps" size="59156" subdir="keymaps" unzip="1" unzipped_size="308889" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/chromeos_keymaps.zip" version="1.0" />
+    <package author="Christopher C. Little" checksum="021f565b50a922b18bc8475ff4d128fc" id="key_positions" license="CC-BY" name="Key Positions" size="784" subdir="keymaps" unzip="1" unzipped_size="2064" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/key_positions.zip" version="1.1" />
+    <package author="Christopher C. Little" checksum="04c91f18ecbf6a9b09e23de088ebc781" id="windows_keymaps" license="CC-BY" name="Windows Keymaps" size="164763" subdir="keymaps" unzip="1" unzipped_size="632139" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/keymaps/windows_keymaps.zip" version="1.1" />
     <package author="Christopher C. Little" checksum="18927db56cf8d036a15366f01b966572" id="he_qgram" license="CC-BY" name="Hebrew q-gram UnigramCorpus data based on Google Books NGrams" size="406547" subdir="corpora" unzip="1" unzipped_size="847090" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/corpora/he_qgram.zip" version="1.0" />
     <package author="Christopher C. Little" checksum="2451e4017247b2513eb33b31efe37746" id="en_GB_qgram" license="CC-BY" name="British English q-gram UnigramCorpus data based on Google Books NGrams" size="2326615" subdir="corpora" unzip="1" unzipped_size="4698157" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/corpora/en_GB_qgram.zip" version="1.0" />
     <package author="Christopher C. Little" checksum="9b9228d1ba0423eb53b1d34505ba22c0" id="it_qgram" license="CC-BY" name="Italian q-gram UnigramCorpus data based on Google Books NGrams" size="1428722" subdir="corpora" unzip="1" unzipped_size="2846851" url="https://raw.githubusercontent.com/chrislit/abydos-data/master/packages/corpora/it_qgram.zip" version="1.0" />
@@ -30,10 +33,16 @@
       <item ref="wikitext_qgram" />
       <item ref="zh_CN_qgram" />
       <item ref="key_positions" />
+      <item ref="android_keymaps" />
+      <item ref="chromeos_keymaps" />
+      <item ref="osx_keymaps" />
       <item ref="windows_keymaps" />
     </collection>
     <collection id="keymaps" name="Keymaps">
       <item ref="key_positions" />
+      <item ref="android_keymaps" />
+      <item ref="chromeos_keymaps" />
+      <item ref="osx_keymaps" />
       <item ref="windows_keymaps" />
     </collection>
     <collection id="qgram_corpora" name="Q-Gram corpora">
