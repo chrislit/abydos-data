@@ -1,4 +1,7 @@
 <collection id="keymaps" name="Keymaps">
   <item ref="key_positions"/>
+  <item ref="android_keymaps"/>
+  <item ref="chromeos_keymaps"/>
+  <item ref="osx_keymaps"/>
   <item ref="windows_keymaps"/>
 </collection>
